@@ -1,0 +1,14 @@
+baseURL = "https://www.injurylawfirmhouston.com/"
+languageCode = "en-us"
+title = "Injury Law Firm Houston"
+
+[deployment]
+
+[[deployment.targets]]
+name = "prod"
+URL = "s3://hugo-injurylaw-prod"
+#cloudFrontDistributionID = "E1WGRPUFPRUIMZ"
+
+# Azure Blob Storage; see https://gocloud.dev/howto/blob/#azure
+# URL = "azblob://$web"
+
