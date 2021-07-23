@@ -1,0 +1,540 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.sidenav .dropdown-menu {
+  display: none;
+}
+.sidenav .dropdown-menu a {
+  font-weight: 700;
+  color: #0c6c74;
+  font-size: 15px;
+  font-family: Open Sans;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  height: 30px;
+  padding-top: 5px;
+}
+.sidenav .dropdown-menu a.active {
+  color: #f7a01c;
+}
+
+.top-header {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 32px;
+  background-color: #fff;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px 20px 0;
+  position: relative;
+  transition: 0.3s;
+  left: 0px;
+}
+.top-header.isOpen {
+  left: 160px;
+  background-color: #42A6D0;
+}
+.top-header.isOpen .logo-container {
+  opacity: 0;
+}
+.top-header .logo-container {
+  transition: 0.3s;
+  opacity: 1;
+}
+.top-header .logo-main {
+  display: block;
+  color: #545D5F;
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: Georgia, serif;
+}
+.top-header .logo-secondary {
+  display: none;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+.top-header #mobile-nav-img {
+  position: relative;
+  top: 2px;
+}
+.top-header .mobile-phone img {
+  height: 45px;
+}
+.top-header > .mobile-only {
+  text-align: center;
+}
+.top-header > .mobile-only.mobile-menu {
+  width: 75px;
+  height: 36px;
+  margin-right: 30px;
+}
+.top-header > .mobile-only.mobile-menu a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.top-header > .mobile-only.mobile-phone {
+  width: 38.1px;
+  height: 36px;
+  position: relative;
+  bottom: 2px;
+}
+.top-header > .mobile-only.mobile-phone a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.mobile-menu.tablet-only {
+  margin-right: 30px;
+}
+
+.bottom-header {
+  position: absolute;
+  right: 100%;
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.header-menu-mobile-cta {
+  display: none;
+}
+
+.logo-mobile {
+  width: 160px;
+}
+
+.entry-header {
+  display: none;
+}
+
+.site-content-contain {
+  padding-top: 50px;
+}
+
+#sidenav.active {
+  left: 0;
+}
+
+.container {
+  max-width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.homepage-upper-hero,
+.header-nav {
+  display: none;
+}
+
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  transition: 0s;
+  background-color: #fff;
+  position: fixed;
+  font-family: "Roboto", sans-serif;
+}
+header .header-upper {
+  height: 50px;
+}
+header .header-upper .logo {
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.3rem;
+  width: 215px;
+  display: block;
+  float: none;
+}
+
+.sidenav {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 137px;
+  left: -202px;
+  background-color: #f4f5ed;
+  color: #333;
+  overflow-x: hidden;
+  padding-top: 14px;
+  transition: 0.3s;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.sidenav .mobile-menu-logo {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 2px;
+  font-family: Georgia, serif;
+  color: #333;
+}
+.sidenav .header-menu-item {
+  font-weight: 400;
+  color: #333;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  height: 56px;
+  padding-top: 17px;
+  text-align: left;
+  line-height: 28px;
+}
+.sidenav .header-menu-item br {
+  display: none;
+}
+.sidenav .header-menu-mobile-cta {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #fcf8f8;
+  text-align: center;
+  background-color: #0c6c74;
+  box-shadow: 0 2px 4px 0 rgba(9, 8, 8, 0.3);
+  border-radius: 3px;
+  margin: auto;
+  font-weight: 700;
+  border: none;
+  margin-top: 20px;
+  width: 250px;
+  padding: 15px 0;
+  text-decoration: none;
+}
+
+.sidenav a {
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+#page {
+  transition: 0.3s;
+}
+
+.sidenav {
+  border: none;
+}
+
+.site-header {
+  top: 0;
+}
+.site-header #mobile-nav-img-close {
+  position: relative;
+  top: 9px;
+  margin: 0 auto;
+}
+
+.toggle {
+  position: relative;
+  bottom: 5px;
+  color: #333 !important;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.site-content-contain {
+  padding-top: 137px;
+}
+
+.site-branding {
+  width: 80%;
+}
+.site-branding .site-logo {
+  width: 120px;
+  height: 87px;
+  cursor: pointer;
+}
+.site-branding .site-logo img {
+  max-width: 160px;
+  height: auto;
+  width: 100%;
+}
+
+.desktop-menu-options-container {
+  display: none;
+}
+
+.desktop-menu-option {
+  padding: 5px;
+}
+.desktop-menu-option a {
+  font-family: "Signika", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  text-decoration: none;
+}
+
+.site-navigation {
+  margin: auto;
+}
+.site-navigation #store-locator {
+  display: inline-flex;
+  text-align: right;
+  width: 205px;
+}
+.site-navigation #store-locator a {
+  color: #aa2226;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.header-top {
+  display: flex;
+  background: #ecefea url(https://media-buca.s3.amazonaws.com/dev/homepage/bg-header-skyline.jpg) bottom right repeat-x;
+  background-size: cover;
+  width: 100%;
+}
+
+.map-marker {
+  position: relative;
+  left: 10px;
+  bottom: -5px;
+}
+.map-marker img {
+  width: 25px;
+  height: 25px;
+}
+
+.main-nav {
+  background-color: #012409;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hamburger-icon {
+  margin: auto;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.hamburger-icon img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 1px;
+}
+
+.menu-container {
+  padding: 10px 10px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.menu-container a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 3px;
+}
+
+.reserve-container {
+  background-color: #aa2226;
+  padding: 10px 10px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.reserve-container a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 3px;
+}
+
+.order-online-container {
+  background-color: #195624;
+  padding: 10px 10px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.order-online-container a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 3px;
+}
+
+@media screen and (min-width: 600px) {
+  .site-navigation #store-locator {
+    display: inline-flex;
+    text-align: right;
+    width: 285px;
+  }
+
+  .map-marker {
+    position: relative;
+    left: 0px;
+    bottom: -5px;
+  }
+
+  .toggle {
+    position: relative;
+    bottom: 0px;
+    right: 11px;
+  }
+
+  .site-branding .site-logo {
+    width: 150px;
+    height: 110px;
+  }
+
+  .site-content-contain {
+    padding-top: 158px;
+  }
+
+  .sidenav {
+    top: 160px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .desktop-menu-options-container {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  #sidenav.active {
+    left: 0;
+    display: none;
+  }
+
+  .desktop-nav {
+    background-color: #012409;
+    color: #fff;
+    display: table;
+    font-family: "Voltage";
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .desktop-menu-flex {
+    display: inline-flex;
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+    width: 805px;
+  }
+
+  .desktop-menu-options-container {
+    margin: auto;
+    width: 568px;
+    margin-top: -40px;
+    position: absolute;
+    right: 260px;
+    width: 300px;
+  }
+
+  .site-navigation #store-locator {
+    display: inline-flex;
+    text-align: right;
+    width: 285px;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .desktop-nav-inner-container {
+    display: inline-flex;
+    position: relative;
+    bottom: 6px;
+    justify-content: space-between;
+    width: 725px;
+  }
+
+  .reserve-container-desktop a, .order-online-container-desktop a, .catering-container-desktop a {
+    background: #aa2226;
+    border: solid 2px #aa2226;
+    font-family: "Signika", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 7px;
+    padding: 6px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+
+  .reserve-container-desktop a:hover, .order-online-container-desktop a:hover, .catering-container-desktop a:hover {
+    transition: 0.5s;
+    color: #aa2226;
+    background: #fff;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .header-top {
+    display: flex;
+    background: transparent;
+    width: 1120px;
+    margin: auto;
+  }
+
+  .desktop-menu-flex {
+    display: inline-flex;
+    position: relative;
+    bottom: 10px;
+    right: 2px;
+    width: 805px;
+  }
+
+  .desktop-header-top {
+    background: #ecefea url(https://media-buca.s3.amazonaws.com/dev/homepage/bg-header-skyline.jpg) bottom right repeat-x;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .desktop-menu-options-container {
+    margin: auto;
+    margin-top: -30px;
+    position: relative;
+    right: -20px;
+    bottom: 10px;
+    width: 300px;
+  }
+
+  .desktop-menu-option {
+    padding: 0px;
+    padding-right: 30px;
+  }
+}
+
+/*# sourceMappingURL=buca-header.css.map */

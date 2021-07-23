@@ -1,0 +1,701 @@
+.slide-container-one {
+  background-color: #bbbbbb;
+  background-image: url(https://media-buca.s3.amazonaws.com/dev/homepage/buca-catering-hero.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  height: 415px;
+}
+
+.slide-container-two {
+  display: none;
+  background-color: #bbbbbb;
+  background-image: url(https://media-buca.s3.amazonaws.com/dev/homepage/onlineorder-slider-bg.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  height: 415px;
+}
+
+.slide-container-three {
+  display: none;
+  background-color: #bbbbbb;
+  background-image: url(https://media-buca.s3.amazonaws.com/dev/homepage/reservations-slider-bg.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  height: 415px;
+}
+
+.slider-content-container {
+  height: 342px;
+  min-width: 325px;
+}
+
+.slider-top-header {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+.slider-top-header p {
+  font-family: "Signika", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  text-decoration: none;
+}
+
+.slider-subheader {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+.slider-subheader p {
+  font-family: "Signika", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  text-decoration: none;
+}
+
+.slider-info-header {
+  width: 90%;
+  margin: auto;
+  padding-top: 5px;
+}
+.slider-info-header p {
+  font-family: "Signika", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  text-decoration: none;
+}
+
+.slide-green-btn {
+  background: #195624;
+  border: 2px solid #195624;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 7px;
+  padding: 9px;
+  width: 215px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.slider-link {
+  text-decoration: none;
+}
+
+.slide-green-btn:hover {
+  transition: 0.5s;
+  background: #fff;
+  color: #195624;
+}
+
+.buca-content-header-container {
+  width: 75%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.buca-content-header-container h1 {
+  font-family: "Signika", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #aa2226;
+  text-align: center;
+}
+
+.buca-homepage-card {
+  background-color: #F4F2EB;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.buca-homepage-card-bg-meatball {
+  background: url(https://media-buca.s3.amazonaws.com/dev/homepage/meatball-poster.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.buca-homepage-card-bg-catering {
+  background: url(https://media-buca.s3.amazonaws.com/dev/homepage/buca-catering-hero.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.buca-homepage-card-bg-event {
+  background: url(https://media-buca.s3.amazonaws.com/dev/homepage/dining-experience.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.buca-homepage-card-header {
+  width: 75%;
+  margin: auto;
+}
+.buca-homepage-card-header h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #212529;
+  text-align: center;
+}
+
+.buca-homepage-card-content {
+  width: 90%;
+  margin: auto;
+}
+.buca-homepage-card-content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212529;
+  text-align: center;
+}
+
+.buca-red-btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.buca-red-btn a {
+  background: #aa2226;
+  border: 2px solid #aa2226;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 7px;
+  padding: 8px;
+  width: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.sign-up-link {
+  text-decoration: none;
+}
+
+.sign-up-rewards-card-container {
+  width: 95%;
+  height: 300px;
+  margin: auto;
+  background: url(https://media-buca.s3.amazonaws.com/dev/homepage/buca-penne-noodle-bg_1920x1280-1.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.gift-cards-card-container {
+  width: 95%;
+  height: 300px;
+  margin: auto;
+  background: url(https://media-buca.s3.amazonaws.com/dev/homepage/buca-gift-cards.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.sign-up-rewards-card-header {
+  width: 90%;
+  margin: auto;
+  padding-top: 64px;
+}
+.sign-up-rewards-card-header h2 {
+  font-family: "Signika", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 15px #000;
+}
+
+.giftcard-card-header {
+  width: 90%;
+  margin: auto;
+  padding-top: 95px;
+}
+.giftcard-card-header h2 {
+  font-family: "Signika", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 15px #000;
+}
+
+.sign-up-rewards-card-content {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.sign-up-rewards-card-content p {
+  font-family: "Signika", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 15px #000;
+}
+
+.buca-inner-red-btn {
+  background: #aa2226;
+  border: 2px solid #aa2226;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 7px;
+  padding: 8px;
+  width: 185px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+.buca-inner-red-btn:hover {
+  transition: 0.5s;
+  color: #aa2226;
+  background: #fff;
+}
+
+.buca-red-btn a:hover {
+  transition: 0.5s;
+  color: #aa2226;
+  background: #fff;
+}
+
+.arrow-container-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: absolute;
+  top: 486px;
+}
+
+.arrow-container-left {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  position: absolute;
+  top: 486px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  z-index: 3;
+}
+
+.next {
+  left: 98%;
+}
+
+.left-arrow, .right-arrow {
+  width: 20px;
+  padding: 5px;
+  background: #aa2226;
+}
+
+.homepage-main-slider-container {
+  overflow: hidden;
+  display: flex;
+}
+
+.buca-slides {
+  position: relative;
+}
+
+.fade {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 500px) {
+  .slider-top-header p {
+    font-family: "Signika", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 52px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: none;
+    background-color: #EC091C;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .curbside-slide-header {
+    width: 105%;
+    margin: 0;
+  }
+  .curbside-slide-header p {
+    width: 88%;
+  }
+
+  .slider-info-header {
+    width: 100%;
+    margin: 0;
+    padding-top: 5px;
+  }
+  .slider-info-header p {
+    text-shadow: none;
+    color: #333;
+  }
+
+  .slider-content-container {
+    height: 275px;
+    min-width: 325px;
+  }
+
+  .order-slide-header, .deals-slide-header {
+    width: 96%;
+    margin: 0;
+    padding-top: 20px;
+  }
+  .order-slide-header p, .deals-slide-header p {
+    font-family: "Signika", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 47px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: none;
+    background-color: #EC091C;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .slider-subheader {
+    padding-top: 5px;
+    margin: 0;
+  }
+  .slider-subheader p {
+    text-shadow: none;
+    color: #333;
+  }
+
+  .slide-white-bubble {
+    width: 93%;
+    margin: 0;
+    margin-top: 20px;
+    background-color: #fff;
+    padding-top: 0;
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .slide-green-btn {
+    margin: 0;
+  }
+
+  .curbside-header {
+    width: 93%;
+    margin: 0;
+    margin-top: 20px;
+    background-color: #fff;
+    padding-top: 0;
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .curbside-header p {
+    color: #333;
+    text-shadow: none;
+  }
+}
+@media screen and (min-width: 525px) {
+  .curbside-slide-header {
+    margin: 0;
+    width: 530px;
+  }
+
+  .order-slide-header {
+    margin: 0;
+    width: 500px;
+  }
+
+  .deals-slide-header {
+    width: 436px;
+  }
+
+  .curbside-header {
+    width: 440px;
+  }
+
+  .slide-white-bubble {
+    width: 397px;
+  }
+
+  .order-bubble {
+    width: 355px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .meal-deals-card, .catering-party-card, .group-event-card {
+    display: flex;
+  }
+
+  .buca-homepage-card-bg-meatball {
+    width: 773px;
+    height: 288px;
+  }
+
+  .buca-homepage-card-bg-catering {
+    width: 773px;
+    height: 288px;
+    order: 2;
+  }
+
+  .buca-homepage-card-bg-event {
+    width: 735px;
+    height: 288px;
+    order: 2;
+  }
+
+  .buca-content-header-container {
+    width: 95%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .buca-content-header-container h1 {
+    font-size: 45px;
+  }
+
+  .buca-card-content-container {
+    margin: auto;
+  }
+
+  .cta-flex-container {
+    display: flex;
+    width: 95%;
+    margin: auto;
+  }
+
+  .sign-up-rewards-card-container {
+    margin: auto;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .curbside-slide-header {
+    margin: 0;
+    width: 665px;
+  }
+
+  .curbside-header {
+    width: 555px;
+  }
+
+  .order-slide-header {
+    margin: 0;
+    width: 578px;
+  }
+
+  .deals-slide-header {
+    width: 515px;
+  }
+
+  .order-bubble {
+    width: 581px;
+  }
+
+  .order-slide-header p, .deals-slide-header p {
+    font-size: 54px;
+    line-height: 52px;
+  }
+
+  .slider-top-header {
+    padding-top: 45px;
+  }
+
+  .arrow-container-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+  }
+
+  .arrow-container-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+  }
+
+  .left-arrow, .right-arrow {
+    width: 20px;
+    padding: 0px;
+    background: transparent;
+  }
+}
+@media screen and (min-width: 750px) {
+  .buca-content-header-container h1 {
+    font-size: 55px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .curbside-slide-header {
+    margin: 0;
+    width: 965px;
+  }
+
+  .order-slide-header {
+    margin: 0;
+    width: 840px;
+  }
+
+  .slider-content-container {
+    height: 254px;
+    min-width: 325px;
+  }
+
+  .arrow-container-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    top: 350px;
+  }
+
+  .arrow-container-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    position: absolute;
+    top: 350px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .homepage-midsection-flex {
+    display: flex;
+    width: 1120px;
+    margin: auto;
+  }
+
+  .meal-deals-card, .catering-party-card, .group-event-card {
+    display: block;
+    width: 350px;
+    height: 535px;
+  }
+
+  .buca-homepage-card-bg-meatball {
+    width: 350px;
+  }
+
+  .buca-homepage-card-bg-catering {
+    width: 350px;
+  }
+
+  .buca-homepage-card-bg-event {
+    width: 350px;
+  }
+
+  .private-event-btn {
+    padding-top: 44px;
+  }
+
+  .cta-flex-container {
+    display: flex;
+    width: 1098px;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=buca-homepage.css.map */
