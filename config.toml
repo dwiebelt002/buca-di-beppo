@@ -6,7 +6,7 @@ title = "Injury Law Firm Houston"
 
 [[deployment.targets]]
 name = "prod"
-URL = "s3://hugo-injurylaw-prod"
+URL = "s3://buca-di-beppo"
 #cloudFrontDistributionID = "E1WGRPUFPRUIMZ"
 
 # Azure Blob Storage; see https://gocloud.dev/howto/blob/#azure
